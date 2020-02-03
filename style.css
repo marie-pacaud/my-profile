@@ -1,0 +1,82 @@
+/* Colors and fonts*/
+body {
+	background: #919191;
+	color: white;
+	font-family: 'Playfair Display', serif;
+	font-size: 17px;
+}
+h1, h2, h3 {
+	font-family: 'Playfair Display', serif;
+}
+h1 {
+	color: white;
+	font-size: 32px;
+	padding: 15px 0px;
+}
+h2 {
+	color: white;
+	font-size: 24px;
+	font-weight: lighter;
+}
+
+
+ a { 
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    background: pink;
+    padding: 10px;
+    border-radius: 4px
+
+}
+
+#img-circle {
+	border-radius: 50%;
+	width: 150px;
+}
+
+a:hover {
+  color: #919191;
+}
+
+/* Custom design with class (99% of your design)*/
+
+div.section {
+	background: darkgrey;
+    margin: 30px;
+    padding: 15px 60px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+}
+
+ @media (max-width: 500px) {
+ 	.container{
+ 	  width: 400px;
+ 	}
+  
+  @media (max-width: 760px) {
+  	.container{
+  		width: 600px
+  	}
+  }
+
+ }
+
+div.container {
+	text-align: center;
+	width: 640px;
+	margin: 10px auto;
+}
+
+img {
+	width: 100%;
+	height: auto;
+	
+}
+
+ul{
+	list-style: none;
+    padding: 0
+}
